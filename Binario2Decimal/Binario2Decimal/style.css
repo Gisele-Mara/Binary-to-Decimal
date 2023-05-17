@@ -1,0 +1,67 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 3px;
+}
+
+button {
+    border: 1px solid blanchedalmond;
+    border-radius: 6px;
+ 
+}
+
+#result {
+
+    margin-bottom: 20px;
+
+    
+}
+
+
+#screenCalculus {
+    border: 1px solid black;
+    position: relative;
+    display: none;
+    font-weight: 700;
+    font-size: x-large;
+    width: 700px;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+#calculus{
+    text-align: center;
+    margin: 15px;
+    padding: 4px;
+    transition-delay: 1000s;
+    transition: 12s;
+}
+blockquote {
+    text-align: justify;
+    margin: 15px;
+    padding: 4px;
+    transition-delay: 1000s;
+    transition: 12s;
+}
+
+
+#showHide:checked + #screenCalculus {
+    display: block;
+ }
+
+#showHide + #screenCalculus {
+    display: none;
+    
+}
+

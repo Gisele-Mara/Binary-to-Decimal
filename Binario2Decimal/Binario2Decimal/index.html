@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Binary to decimal</h1>
+    <label> Type the binary number:</label>
+    <input type="text" id="binaryDigit" placeholder="Max 8 digits">
+    <button onclick="conversao()"> Convert </button>
+    <br>
+    <br>
+    <label>The decimal is: </label>
+    <input type="text" id="result" disabled>
+
+    <br>
+    <input type="checkbox" id="showHide"> Show calculus
+    <div id="screenCalculus">
+        <blockquote cite="https://en.wikipedia.org/wiki/Binary_number"> "In the binary system, each bit represents an
+            increasing power of 2, with the rightmost bit representing 2<sup>0</sup>, the next representing
+            2<sup>1</sup>,
+            then 2<sup>2</sup>, and so on.
+            The value of a binary number is the sum of the powers of 2 represented by each "1" bit." </blockquote>
+        <div id="calculus"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
